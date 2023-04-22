@@ -30,7 +30,7 @@ $(function() {
     $(".br").click(function(){
         //cabeçalho
         $(".cabecalho__menu__links").children().eq(0).text("Home");
-        $(".cabecalho__menu__links").children().eq(1).text("Sobre mim");
+        $(".sobremim").children().eq(0).text("Sobre mim");
         $(".cabecalho__menu__links").children().eq(2).text("Currículo");
         $(".language__selected").text("pt-br");
         $(".language__selected").removeClass("change-en");
@@ -77,7 +77,7 @@ $(function() {
     $(".en").click(function(){
         //cabeçalho
         $(".cabecalho__menu__links").children().eq(0).text("Home");
-        $(".cabecalho__menu__links").children().eq(1).text("About");
+        $(".sobremim").children().eq(0).text("About");
         $(".cabecalho__menu__links").children().eq(2).text("Curriculum");
         $(".language__selected").text("en");
         $(".language__selected").removeClass("change-br");
@@ -125,7 +125,7 @@ $(function() {
     $(".es").click(function(){
         //cabeçalho
         $(".cabecalho__menu__links").children().eq(0).text("Home");
-        $(".cabecalho__menu__links").children().eq(1).text("Acerca");
+        $(".sobremim").children().eq(0).text("Acerca");
         $(".cabecalho__menu__links").children().eq(2).text("Currículo");
         $(".language__selected").text("es");
         $(".language__selected").removeClass("change-en");
